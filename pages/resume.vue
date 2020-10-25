@@ -1,9 +1,11 @@
 <template lang="pug">
 .resume-page
   Hero
+  About
   Education
   Experience
   Achievement
+  Skills
   Footer
 </template>
 

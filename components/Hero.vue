@@ -1,6 +1,7 @@
 <template lang="pug">
 .hero
-  b-jumbotron#hero-section(header="Markus Leemet" lead="Resumee" fluid bg-variant="dark" text-variant="light" )
+  b-jumbotron.hero-section(header="Markus Leemet" lead="Resumee" fluid bg-variant="dark" text-variant="light" )
+    ResumeMenu
 </template>
 
 <script>
@@ -11,7 +12,7 @@ export default {
 
 <style lang="scss">
 .hero{
-  #hero-section{
+  .hero-section{
     min-height: 100vh;
     margin-bottom: 0;
     background-image: url("https://source.unsplash.com/random/1920x1080");
