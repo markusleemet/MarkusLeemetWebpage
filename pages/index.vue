@@ -1,9 +1,9 @@
 <template lang="pug">
-.resume-page
-  Hero
-  Education
-  Experience
-  Footer
+.main-page
+  b-navbar
+    b-navbar-brand TEST
+    b-navbar-nav
+      b-nav-item(href="/resume") Resume
 </template>
 
 <script lang="ts">
@@ -12,15 +12,5 @@ export default {
 </script>
 
 <style lang="scss">
-.resume-page{
-  .menu-container{
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-  }
-}
+
 </style>

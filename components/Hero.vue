@@ -1,6 +1,6 @@
 <template lang="pug">
 .hero
-  b-jumbotron#hero-section(header="Markus Leemet" lead="Resumee" fluid bg-variant="dark" border-variant="dark" text-variant="light" )
+  b-jumbotron#hero-section(header="Markus Leemet" lead="Resumee" fluid bg-variant="dark" text-variant="light" )
 </template>
 
 <script>
