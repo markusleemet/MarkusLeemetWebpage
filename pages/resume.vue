@@ -17,6 +17,7 @@ export default {
 
 <style lang="scss">
 .resume-page{
+  font-family: "Times New Roman", Times, serif;
   .menu-container {
     height: 100vh;
     position: sticky;
@@ -33,7 +34,6 @@ export default {
     }
   }
   h2{
-    font-family: Calibri;
     font-weight: 700;
     font-size: 2rem;
   }

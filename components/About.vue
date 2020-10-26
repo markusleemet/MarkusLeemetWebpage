@@ -1,12 +1,12 @@
 <template lang="pug">
   b-container(fluid).about-component
     b-row
-      b-col(cols="12" sm="6").menu-container.menu-item
-        h2 Minust
+      b-col(cols="12" sm="5").menu-container.menu-item
+        h2 {{ $t('resume.sections.about.title') }}
         b-img.section-image(src="~/assets/images/about.png")
         ResumeMenu(selectedOption="Minust")
-      b-col(cols="12" sm="6").information-container
-        p '<span>Lorem ipsum dolor </span>'
+      b-col(cols="12" sm="7").information-container
+        p
 </template>
 
 <script lang="ts">
@@ -18,7 +18,7 @@ export default {
 <style lang="scss">
 .about-component{
   .menu-item{
-    background-color: #d2f5e3;
+    background-color: #4bd7c3;
   }
 }
 </style>

@@ -1,14 +1,14 @@
 <template lang="pug">
 .resume-menu-component
-  a(href="#" v-scroll-to="'.about-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Minust'}") Minust
+  a(href="#" v-scroll-to="'.about-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Minust'}") {{ $t('resume.menu.about') }}
   span {{ divider }}
-  a(href="#" v-scroll-to="'.education-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Haridus'}") Haridus
+  a(href="#" v-scroll-to="'.education-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Haridus'}") {{ $t('resume.menu.education') }}
   span {{ divider }}
-  a(href="#" v-scroll-to="'.experience-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Kogemus'}") Kogemus
+  a(href="#" v-scroll-to="'.experience-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Kogemus'}") {{ $t('resume.menu.experience') }}
   span {{ divider }}
-  a(href="#" v-scroll-to="'.achievement-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Saavutused'}") Saavutused
+  a(href="#" v-scroll-to="'.achievement-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Saavutused'}") {{ $t('resume.menu.achievements') }}
   span {{ divider }}
-  a(href="#" v-scroll-to="'.skill-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Oskused'}") Oskused
+  a(href="#" v-scroll-to="'.skill-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Oskused'}") {{ $t('resume.menu.skills') }}
 </template>
 
 <script lang="js">
@@ -33,6 +33,7 @@ export default {
   left: 0;
   right: 0;
   width: 100%;
+  padding: 0 1rem;
   a, span{
     color: black;
   }

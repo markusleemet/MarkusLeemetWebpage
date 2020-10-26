@@ -1,0 +1,53 @@
+{
+  "resume": {
+    "title": "Markus Leemet",
+    "lead": "curriculum vitae",
+    "menu": {
+      "about": "Minust",
+      "education": "Haridus",
+      "experience": "Kogemus",
+      "achievements": "Saavutused",
+      "skills": "Oskused"
+    },
+    "sections": {
+      "about": {
+        "title": "Minust"
+      },
+      "education": {
+        "title": "Haridus",
+        "items": [
+          {
+            "name": "Tartu Ülikool",
+            "date": "09/2016 – Olevik",
+            "lead": "Loodus- ja täppisteaduste valdkond, bakalaureuseõpe, informaatika",
+            "description": "",
+            "location": "Tartu"
+          },
+          {
+            "name": "Rocca al Mare Kool",
+            "date": "09/2011 – 06/2016",
+            "lead": "Põhi- ja keskkool",
+            "description": "",
+            "location": "Tallinn"
+          },
+          {
+            "name": "Aruküla Vaba Waldorf Kool",
+            "date": "09/2004 – 06/2011",
+            "lead": "Põhikool",
+            "description": "",
+            "location": "Aruküla"
+          }
+        ]
+      },
+      "experience": {
+        "title": "Kogemus"
+      },
+      "achievements": {
+        "title": "Saavutused"
+      },
+      "skills": {
+        "title": "Oskused"
+      }
+    }
+  }
+}

@@ -37,9 +37,25 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    'vue-scrollto/nuxt'
+    ['vue-scrollto/nuxt',
+      {
+        duration: 1000
+      }
+    ],
+    'nuxt-i18n'
   ],
 
+  i18n: {
+    locales: ['et', 'en'],
+    defaultLocale: 'et',
+    vueI18n: {
+      fallbackLocale: 'et',
+      messages: {
+        en: require('./locales/en.json'),
+        et: require('./locales/et.json')
+      }
+    }
+  },
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
 

@@ -1,6 +1,6 @@
 <template lang="pug">
 .hero
-  b-jumbotron.hero-section(header="Markus Leemet" lead="Resumee" fluid bg-variant="dark" text-variant="light" )
+  b-jumbotron.hero-section(:header="$t('resume.title')" :lead="$t('resume.lead')" fluid bg-variant="dark" text-variant="light" )
     ResumeMenu
 </template>
 
