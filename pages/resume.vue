@@ -40,6 +40,9 @@ export default {
   .information-container{
     padding-top: 2rem;
     padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .section-image{
     max-width: 100px;
