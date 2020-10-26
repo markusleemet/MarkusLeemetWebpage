@@ -3,6 +3,7 @@
     b-row
       b-col(cols="12" sm="6").menu-container.menu-item
         h2 Minust
+        b-img.section-image(src="~/assets/images/about.png")
         ResumeMenu(selectedOption="Minust")
       b-col(cols="12" sm="6").information-container
         p '<span>Lorem ipsum dolor </span>'

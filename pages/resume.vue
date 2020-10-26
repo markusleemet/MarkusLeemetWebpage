@@ -26,6 +26,7 @@ export default {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    align-items: center;
 
     @media (max-width: 576px){
       position: relative;
@@ -39,6 +40,9 @@ export default {
   .information-container{
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+  .section-image{
+    max-width: 100px;
   }
 }
 </style>
