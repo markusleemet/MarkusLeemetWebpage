@@ -1,10 +1,9 @@
 <template lang="pug">
-.education-item-component
+.education-item-component.custom-item
   b-row(align-h="around")
-    b-col(cols="12" sm="4")
-      h3.education-name {{ educationItem.name }}
-      p.education-date {{ educationItem.date }}
-    b-col(cols="12" sm="6")
+    b-col(cols="12")
+      h3.custom-item-name {{ educationItem.name }}
+      p.custom-item-date {{ educationItem.date }}
       h4.education-lead {{ educationItem.lead }}
       p {{ educationItem.description }}
       p.education-location {{ educationItem.location }}
@@ -21,24 +20,6 @@ export default {
 
 <style lang="scss">
 .education-item-component{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  .education-date{
-    color: #2CBFAA;
-    position: relative;
-    margin-left: 1.4rem;
-    &::before{
-      content: '';
-      display: block;
-      height: 1rem;
-      width: 1rem;
-      background-image: url("~assets/images/calendar.png");
-      background-size: cover;
-      position: absolute;
-      left: -1.4rem;
-      top: 0.3rem;
-    }
-  }
   .education-location{
     color: #2CBFAA;
     position: relative;
@@ -54,10 +35,6 @@ export default {
       left: -1.5rem;
       top: 0.2rem;
     }
-  }
-  .education-name{
-    position: relative;
-    font-weight: bold;
   }
   img{
     display: inline;

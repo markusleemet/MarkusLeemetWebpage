@@ -11,7 +11,15 @@
     },
     "sections": {
       "about": {
-        "title": "Minust"
+        "title": "Minust",
+        "lead": "Põgusalt minust",
+        "description": "Olen noor, teotahteline ja sportlik. Ei karda kunagi võtta vastu uut väljakutset ning olen alati huvitatud uute asjade õppimisest. Tänu oma heale loogilisele mõtlemisele suudan kiiresti lahendada erinevaid probleeme. Otsin erialast töökohta, et rakendada ülikoolis õpitud teadmiseid ning alustada oma karjääri. Lisaks olen väga kohusetundlik ning sobitun hästi erinevatesse tiimidesse.",
+        "mail": "markusleemet@gmail.com ",
+        "location": "Tartu, Eesti ",
+        "linkedin": "linkedin.com/in/markus-leemet",
+        "phone": "+372 56296263",
+        "birthday": "24 October, 1997",
+        "github": "github.com/markusleemet"
       },
       "education": {
         "title": "Haridus",
@@ -20,30 +28,74 @@
             "name": "Tartu Ülikool",
             "date": "09/2016 – Olevik",
             "lead": "Loodus- ja täppisteaduste valdkond, bakalaureuseõpe, informaatika",
-            "description": "",
+            "description": "Tartu Ülikoolis informaatika õppimine on andnud mulle hea ülevaate erinevatest infotehnoloogiaga seotud valdkondadest. Erinevad õppeained viisid meid süvitsi enamusse  tarkvaraarendusega seotud protsessidesse. Saime tugeva teoreetilise tausta ning ka praktilise kogemuse funktsionaalsete nõute kirjutamisest kuni tarkvara testimieni välja. ",
             "location": "Tartu"
           },
           {
             "name": "Rocca al Mare Kool",
             "date": "09/2011 – 06/2016",
             "lead": "Põhi- ja keskkool",
-            "description": "",
+            "description": "Õppisin Rocca al Mare Koolis kaheksandast klassist kuni gümnaasiumi lõpuni. Reaalkallakuga gümnaasiumi läbimine andis mulle tugeva matemaatilise tausta ning hea analüüsivõime. Tänu valikainetele tekkis mul huvi programmeerimise vastu ning otsustasin seda ülikooli õppima minna.",
             "location": "Tallinn"
           },
           {
             "name": "Aruküla Vaba Waldorf Kool",
             "date": "09/2004 – 06/2011",
             "lead": "Põhikool",
-            "description": "",
+            "description": "Läbisin põhikooli esimesed seitse klassi Aruküla Vaba Waldorfkoolis. Waldorfkool andis mulle võime probleemidele loovalt läheneda ning tahtmise mõista maailma enda ümber.",
             "location": "Aruküla"
           }
         ]
       },
       "experience": {
-        "title": "Kogemus"
+        "title": "Kogemus",
+        "items": [
+          {
+            "name": "Noored Koodi",
+            "position": "Töötubade läbiviija",
+            "date": "01/2018 - 01/2020",
+            "description": "Olen projekti NooredKoodi raames andnud erinevates Eesti koolides ligi 60 töötuba. Töötoad olid suunatud üldiselt gümnaasiumile ja ka põhikooli lõpuklassidele. Töötubade teemad olid järgnevad: python’i programmeerimine, virtuaalreaalsus, turvalisus, veebilehtede loomine, arduino, algoritmika. Lisaks töötubade läbiviimsele osalesin ka projekti raames kahe NooredKoodi võistluse korraldamisel"
+          },
+          {
+            "name": "Nähtamatud Loomad",
+            "position": "IT vabatahtlik",
+            "date": "01/2019 - Olevik",
+            "description": "Aitan kaasa erinevate veebilehtede loomisele, et toetada Nähtamatud Loomad visiooni. Organisatsiooniga liitumisest saadik olen loonud järgnevad veebilehed:"
+          }
+        ]
       },
       "achievements": {
-        "title": "Saavutused"
+        "title": "Saavutused",
+        "items": [
+          {
+            "name": "Tallinna START 2012 võistkondlik võit",
+            "description": "START ehk Suur Turniir Algajatele Retoorikaga Tegelejatele"
+          },
+          {
+            "name": "Kirjanduskonkursi \"Kes võidab Euroopa ühtsusest?\" võit",
+            "description": "https://www.liberalism.ee/akadeemia/uudised/kes-voidab-euroopa- uhtsusest/"
+          },
+          {
+            "name": "Kõnevõistluse \"Demosthenese pärg\" teine koht",
+            "description": "\"Demosthenese pärg\" on Rocca al Mare Kooli kõnevõistlus "
+          },
+          {
+            "name": "Ajateenistuse läbimine",
+            "description": "Olen läbinud kaheksakuulise ajateenistuse Kuperjaanovi jalaväepataljonis. "
+          },
+          {
+            "name": "Olen osalenud kahel Hackathonil",
+            "description": "Olen osalenud \"Arts and hardware\" hackathonil, mis toimus Tartus ja\"Future of mobility\" hackathonil, mis toimus Riias. "
+          },
+          {
+            "name": "Maratoni läbimine (09/2019)",
+            "description": "Läbisin oma esimese maratoni ajaga 4 tundi ja 53 minutit."
+          },
+          {
+            "name": "Androidi rakendus rallikuulekuse radade loomiseks (11/2019 – 03/2020)",
+            "description": "Isiklik projekt, mis on avalikult kättesaadav github-is."
+          }
+        ]
       },
       "skills": {
         "title": "Oskused"
