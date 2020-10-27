@@ -32,7 +32,7 @@ export default {
 <style lang="scss">
 .about-component{
   .menu-item{
-    background-color: #4bd7c3;
+    background-color: #B8F3FF;
   }
   .about-image{
     width: 100%;

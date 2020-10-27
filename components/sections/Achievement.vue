@@ -18,7 +18,7 @@ export default {
 <style lang="scss">
 .achievement-component{
   .menu-item{
-    background-color: #f88a53;
+    background-color: #97d1ff;
   }
 }
 </style>

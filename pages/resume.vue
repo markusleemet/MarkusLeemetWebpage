@@ -9,13 +9,18 @@
 
 <script lang="js">
 import og from '~/static/mina_og.jpg'
+import favicon from '~/static/favicon.png'
 export default {
   name: 'resume',
   head () {
     return {
+      title: 'Markus Leemet resume',
       meta: [
         { hid: 'og:title', property: 'og:title', content: 'Markus Leemet resume' },
         { hid: 'og:image', property: 'og:image', content: og }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: 'http://localhost:3000/favicon.png' }
       ]
     }
   }
@@ -83,6 +88,10 @@ export default {
   }
   a{
     color: black;
+    &:hover{
+      color: #037171;
+      text-decoration: none;
+    }
   }
 }
 </style>

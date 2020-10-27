@@ -18,7 +18,7 @@ export default {
 <style lang="scss">
 .experience-component{
   .menu-item{
-    background-color: #6df8b1;
+    background-color: #B8F3FF;
   }
 }
 </style>

@@ -18,7 +18,7 @@ export default {
 <style lang="scss">
 .skill-component{
   .menu-item{
-    background-color: #e2e761;
+    background-color: #B8F3FF;
   }
 }
 </style>

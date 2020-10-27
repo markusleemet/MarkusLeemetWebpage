@@ -19,7 +19,7 @@ export default {
 <style lang="scss">
 .education-component {
   .menu-item {
-    background-color: #eec3a3;
+    background-color: #97d1ff;
   }
 }
 </style>
