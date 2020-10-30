@@ -5,7 +5,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'This is Markus Leemet\'s personal homepage. Currently it contains only interactive resume but it will be developed further in the future.' },
+      { hid: 'description', name: 'description', content: ' This is Markus Leemet personal homepage. Currently it contains only interactive resume but it will be developed further in the future.' },
       { hid: 'og:title', property: 'og:title', content: 'Markus Leemet webpage' }
     ],
     link: [
@@ -28,7 +28,8 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build'
+    '@nuxt/typescript-build',
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -60,6 +61,10 @@ export default {
   },
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
+
+  googleAnalytics: {
+    id: 'G-H46KEC8D9N'
+  },
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {},
