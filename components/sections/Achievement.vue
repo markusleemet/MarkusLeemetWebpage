@@ -5,7 +5,7 @@
         h2 {{ $t('resume.sections.achievements.title') }}
         b-img.section-image(src="~/assets/images/achievements.png")
         ResumeMenu(selectedOption="Saavutused")
-      b-col(cols="12" sm="4" offset-sm="1").information-container
+      b-col(cols="12" sm="4" offset-sm="1").information-container#achievement-information-container
         AchievementItem(v-for="achievementItem in $t('resume.sections.achievements.items')" :key="achievementItem.name" :achievementItem="achievementItem")
 </template>
 

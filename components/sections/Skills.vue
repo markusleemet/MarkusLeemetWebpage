@@ -5,12 +5,12 @@
         h2 {{ $t('resume.sections.skills.title') }}
         b-img.section-image(src="~/assets/images/skills.png")
         ResumeMenu(selectedOption="Oskused")
-      b-col(cols="12" sm="4" offset-sm="1").information-container
-        h2.mb-5.text-center Kasutatud tehnoloogiad:
-        b-row
+      b-col(cols="12" sm="4" offset-sm="1").information-container#skills-information-container
+        h2.text-center {{ $t('resume.sections.skills.usedTechnologies') }}
+        b-row.skills-list
           b-col.d-flex.flex-row.justify-content-center.skill-item-container(cols="12" xl="4" v-for="(skillItem, index) in skillItems" v-bind:class="{'offset-xl-2': skillItem.offset}")
             SkillItem(:skillItem="skillItem")
-        h2.mb-5.text-center Keeled, mida oskan:
+        h2.text-center {{ $t('resume.sections.skills.languages') }}
         b-row.justify-content-center
           b-col.d-flex.flex-row.justify-content-center.skill-item-container(cols="12" xl="4" v-for="(languageItem, index) in languageItems")
             SkillItem(:skillItem="languageItem")
@@ -73,6 +73,9 @@ export default {
     .skill-item-container{
       padding-right: 0.6rem;
       padding-left: 0.6rem;
+    }
+    .skills-list{
+      margin-bottom: 5rem;
     }
   }
 }

@@ -1,14 +1,14 @@
 <template lang="pug">
 .resume-menu-component
-  a(href="#" v-scroll-to="'.about-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Minust'}") {{ $t('resume.menu.about') }}
+  a(href="#" v-scroll-to="'#about-information-container'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Minust'}") {{ $t('resume.menu.about') }}
   span {{ divider }}
-  a(href="#" v-scroll-to="'.education-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Haridus'}") {{ $t('resume.menu.education') }}
+  a(href="#" v-scroll-to="'#education-information-container'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Haridus'}") {{ $t('resume.menu.education') }}
   span {{ divider }}
-  a(href="#" v-scroll-to="'.experience-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Kogemus'}") {{ $t('resume.menu.experience') }}
+  a(href="#" v-scroll-to="'#experience-information-container'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Kogemus'}") {{ $t('resume.menu.experience') }}
   span {{ divider }}
-  a(href="#" v-scroll-to="'.achievement-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Saavutused'}") {{ $t('resume.menu.achievements') }}
+  a(href="#" v-scroll-to="'#achievement-information-container'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Saavutused'}") {{ $t('resume.menu.achievements') }}
   span {{ divider }}
-  a(href="#" v-scroll-to="'.skill-component'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Oskused'}") {{ $t('resume.menu.skills') }}
+  a(href="#" v-scroll-to="'#skills-information-container'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Oskused'}") {{ $t('resume.menu.skills') }}
 </template>
 
 <script lang="js">

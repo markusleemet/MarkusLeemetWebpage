@@ -5,22 +5,24 @@
         h2 {{ $t('resume.sections.about.title') }}
         b-img.section-image(src="~/assets/images/about.png")
         ResumeMenu(selectedOption="Minust")
-      b-col(cols="12" sm="4" offset-sm="1").information-container.custom-item
+      b-col(cols="12" sm="4" offset-sm="1").information-container.custom-item#about-information-container
         img.about-image.mb-5(src="~/assets/images/mina.jpg" alt="Markus Leemet picture")
-        h3.custom-item-name {{ $t('resume.sections.about.lead') }}
+        h2.custom-item-name.text-center {{ $t('resume.sections.about.lead') }}
         p.about-description.mb-5 {{ $t('resume.sections.about.description') }}
-        h3.custom-item-name Kontaktandmed
-        ul.contact-list
-          li.contact-mail
-            a(href="mailto:markusleemet@gmail.com") {{ $t('resume.sections.about.mail') }}
-          li.contact-location {{ $t('resume.sections.about.location') }}
-          li.contact-phone
-            a(href="tel:+37256296263") {{ $t('resume.sections.about.phone') }}
-          li.contact-birthday {{ $t('resume.sections.about.birthday') }}
-          li.contact-github
-            a(target="_plank" href="https://github.com/markusleemet") {{ $t('resume.sections.about.github') }}
-          li.contact-linkedin
-            a(target="_plank" href="https://www.linkedin.com/in/markus-leemet-1b6634179/") {{ $t('resume.sections.about.linkedin') }}
+        h2.custom-item-name.text-center {{ $t('resume.sections.about.contactTitle') }}
+        b-row.justify-content-center
+          b-col(cols="12" lg="8")
+            ul.contact-list
+              li.contact-mail
+                a(href="mailto:markusleemet@gmail.com") {{ $t('resume.sections.about.mail') }}
+              li.contact-location {{ $t('resume.sections.about.location') }}
+              li.contact-phone
+                a(href="tel:+37256296263") {{ $t('resume.sections.about.phone') }}
+              li.contact-birthday {{ $t('resume.sections.about.birthday') }}
+              li.contact-github
+                a(target="_plank" href="https://github.com/markusleemet") {{ $t('resume.sections.about.github') }}
+              li.contact-linkedin
+                a(target="_plank" href="https://www.linkedin.com/in/markus-leemet-1b6634179/") {{ $t('resume.sections.about.linkedin') }}
 </template>
 
 <script lang="ts">
@@ -41,7 +43,6 @@ export default {
     margin-left: auto;
     margin-right: auto;
   }
-  .about-description{}
   .contact-list{
     list-style-type: none;
     padding-left: 0;

@@ -5,7 +5,7 @@
         h2 {{ $t('resume.sections.education.title') }}
         b-img.section-image(src="~/assets/images/education.png")
         ResumeMenu(selectedOption="Haridus")
-      b-col(cols="12" sm="4" offset-sm="1").information-container
+      b-col(cols="12" sm="4" offset-sm="1").information-container#education-information-container
         EducationItem(v-for="educationItem in $t('resume.sections.education.items')" :educationItem="educationItem" :key="educationItem.name")
 
 </template>

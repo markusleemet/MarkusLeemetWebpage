@@ -3,9 +3,9 @@
   b-row(align-h="around")
     b-col(cols="12")
       h3.custom-item-name {{ educationItem.name }}
-      p.custom-item-date {{ educationItem.date }}
       h4.education-lead {{ educationItem.lead }}
       p {{ educationItem.description }}
+      p.custom-item-date {{ educationItem.date }}
       p.education-location {{ educationItem.location }}
 </template>
 
@@ -35,9 +35,6 @@ export default {
       left: -1.5rem;
       top: 0.2rem;
     }
-  }
-  img{
-    display: inline;
   }
 }
 </style>

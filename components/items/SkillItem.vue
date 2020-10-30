@@ -20,6 +20,9 @@ export default {
   position: relative;
   max-width: 200px;
   margin: 0 !important;
+  @media (max-width: 1200px){
+    margin-bottom: 1rem !important;
+  }
   img{
     width: 100%;
   }

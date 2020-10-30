@@ -3,9 +3,9 @@
   b-row(align-h="around")
     b-col(cols="12")
       h3.custom-item-name {{ experienceItem.name }}
-      p.experience-position {{ experienceItem.position }}
-      p.custom-item-date {{ experienceItem.date }}
+      h4.experience-position {{ experienceItem.position }}
       p.experience-description {{ experienceItem.description }}
+      p.custom-item-date {{ experienceItem.date }}
 </template>
 
 <script lang="js">

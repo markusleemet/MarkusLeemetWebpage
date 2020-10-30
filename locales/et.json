@@ -14,6 +14,7 @@
         "title": "Minust",
         "lead": "Põgusalt minust",
         "description": "Olen noor, teotahteline ja sportlik. Ei karda kunagi võtta vastu uut väljakutset ning olen alati huvitatud uute asjade õppimisest. Tänu oma heale loogilisele mõtlemisele suudan kiiresti lahendada erinevaid probleeme. Otsin erialast töökohta, et rakendada ülikoolis õpitud teadmiseid ning alustada oma karjääri. Lisaks olen väga kohusetundlik ning sobitun hästi erinevatesse tiimidesse.",
+        "contactTitle": "Kontaktandmed:",
         "mail": "markusleemet@gmail.com ",
         "location": "Tartu, Eesti ",
         "linkedin": "linkedin.com/in/markus-leemet",
@@ -98,7 +99,9 @@
         ]
       },
       "skills": {
-        "title": "Oskused"
+        "title": "Oskused",
+        "usedTechnologies": "Tehnoloogiad, mida olen kasutanud:",
+        "languages": "Keeled, mida oskan:"
       }
     }
   }
