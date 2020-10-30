@@ -5,11 +5,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'This is Markus Leemet\'s personal homepage. Currently it contains only interactive resume but it will be developed further in the future.' },
       { hid: 'og:title', property: 'og:title', content: 'Markus Leemet webpage' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }
     ]
   },
 
