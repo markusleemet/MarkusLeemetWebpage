@@ -9,7 +9,6 @@
 
 <script lang="js">
 import og from '~/static/mina_og.jpg'
-import favicon from '~/static/favicon.png'
 export default {
   name: 'resume',
   head () {
@@ -20,7 +19,7 @@ export default {
         { hid: 'og:image', property: 'og:image', content: og }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       ]
     }
   }
