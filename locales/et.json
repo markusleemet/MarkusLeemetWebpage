@@ -12,7 +12,7 @@
     "sections": {
       "about": {
         "title": "Minust",
-        "lead": "Põgusalt minust",
+        "lead": "Põgusalt minust:",
         "description": "Olen noor, teotahteline ja sportlik. Ei karda kunagi võtta vastu uut väljakutset ning olen alati huvitatud uute asjade õppimisest. Tänu oma heale loogilisele mõtlemisele suudan kiiresti lahendada erinevaid probleeme. Otsin erialast töökohta, et rakendada ülikoolis õpitud teadmiseid ning alustada oma karjääri. Lisaks olen väga kohusetundlik ning sobitun hästi erinevatesse tiimidesse.",
         "contactTitle": "Kontaktandmed:",
         "mail": "markusleemet@gmail.com ",
@@ -29,7 +29,7 @@
             "name": "Tartu Ülikool",
             "date": "09/2016 – Olevik",
             "lead": "Loodus- ja täppisteaduste valdkond, bakalaureuseõpe, informaatika",
-            "description": "Tartu Ülikoolis informaatika õppimine on andnud mulle hea ülevaate erinevatest infotehnoloogiaga seotud valdkondadest. Erinevad õppeained viisid meid süvitsi enamusse  tarkvaraarendusega seotud protsessidesse. Saime tugeva teoreetilise tausta ning ka praktilise kogemuse funktsionaalsete nõute kirjutamisest kuni tarkvara testimieni välja. ",
+            "description": "Tartu Ülikoolis informaatika õppimine on andnud mulle hea ülevaate erinevatest infotehnoloogiaga seotud valdkondadest. Erinevad õppeained viisid mind süvitsi kõikidesse tarkvaraarendusega seotud protsessidesse. Sain tugeva teoreetilise tausta ning ka praktilise kogemuse funktsionaalsete nõute kirjutamisest kuni tarkvara testimiseni välja.",
             "location": "Tartu"
           },
           {
@@ -55,13 +55,13 @@
             "name": "Noored Koodi",
             "position": "Töötubade läbiviija",
             "date": "01/2018 - 01/2020",
-            "description": "Olen projekti NooredKoodi raames andnud erinevates Eesti koolides ligi 60 töötuba. Töötoad olid suunatud üldiselt gümnaasiumile ja ka põhikooli lõpuklassidele. Töötubade teemad olid järgnevad: python’i programmeerimine, virtuaalreaalsus, turvalisus, veebilehtede loomine, arduino, algoritmika. Lisaks töötubade läbiviimsele osalesin ka projekti raames kahe NooredKoodi võistluse korraldamisel"
+            "description": "Olen projekti Noored Koodi raames andnud erinevates Eesti koolides ligi 60 töötuba. Töötoad olid suunatud üldiselt gümnaasiumile ja ka põhikooli lõpuklassidele. Töötubade teemad olid järgnevad: python’i programmeerimine, virtuaalreaalsus, turvalisus, veebilehtede loomine, arduino, algoritmika. Lisaks töötubade läbiviimsele osalesin ka projekti raames kahe Noored Koodi võistluse korraldamisel"
           },
           {
             "name": "Nähtamatud Loomad",
             "position": "IT vabatahtlik",
             "date": "01/2019 - Olevik",
-            "description": "Aitan kaasa erinevate veebilehtede loomisele, et toetada Nähtamatud Loomad visiooni. Organisatsiooniga liitumisest saadik olen loonud järgnevad veebilehed:"
+            "description": "Aitan kaasa erinevate veebilehtede loomisele, et toetada Nähtamatud Loomad visiooni. Organisatsiooniga liitumisest saadik olen töötanud järgnevate veebilehtedega:"
           }
         ]
       },
@@ -70,31 +70,38 @@
         "items": [
           {
             "name": "Tallinna START 2012 võistkondlik võit",
-            "description": "START ehk Suur Turniir Algajatele Retoorikaga Tegelejatele"
+            "description": "START ehk Suur Turniir Algajatele Retoorikaga Tegelejatele on väitlusturniir, mis on mõeldud vähese kogemusega väitlejatele. Turniiri teema oli järgnev: <i>alkoholi kättesaadavuse piiramine on põhjendatud</i>. Turniiril saavutasime tiimiga <i>m³</i> meeskondliku võidu.",
+            "date": "11/2012"
           },
           {
-            "name": "Kirjanduskonkursi \"Kes võidab Euroopa ühtsusest?\" võit",
-            "description": "https://www.liberalism.ee/akadeemia/uudised/kes-voidab-euroopa- uhtsusest/"
+            "name": "Kirjanduskonkursi <i>Kes võidab Euroopa ühtsusest?</i> võit",
+            "description": "Esseekonkursi korraldasid Liberalismi Akadeemia ja Euroopa Parlamendi liige Urmas Paet. Konkursi võidu puhul sain külastada Brüsselis asuvat Euroopa Parlamenti. Esse on leitav lehelt: <a href='https://www.liberalism.ee/akadeemia/uudised/kes-voidab-euroopa-uhtsusest/' target='_plank'>https://www.liberalism.ee/akadeemia/uudised/kes-voidab-euroopa-uhtsusest/</a>",
+            "date": "09/2016"
           },
           {
-            "name": "Kõnevõistluse \"Demosthenese pärg\" teine koht",
-            "description": "\"Demosthenese pärg\" on Rocca al Mare Kooli kõnevõistlus "
+            "name": "Kõnevõistluse <i>Demosthenese pärg</i> teine koht",
+            "description": "<i>Demosthenese pärg</i> on Rocca al Mare Koolis korraldatav iga-aastane kõnevõistlus, kus õpilased peavad etteantud teemal kõnesi.",
+            "date": "03/2016"
           },
           {
             "name": "Ajateenistuse läbimine",
-            "description": "Olen läbinud kaheksakuulise ajateenistuse Kuperjaanovi jalaväepataljonis. "
+            "description": "Olen läbinud kaheksakuulise ajateenistuse Kuperjaanovi jalaväepataljonis. Asusin kaitseväkke kohe peale gümnaasiumit.",
+            "date": "10/2016 - 06/2017"
           },
           {
             "name": "Olen osalenud kahel Hackathonil",
-            "description": "Olen osalenud \"Arts and hardware\" hackathonil, mis toimus Tartus ja\"Future of mobility\" hackathonil, mis toimus Riias. "
+            "description": "Olen osalenud <i>Arts and hardware</i> hackathonil, mis toimus Tartus ja <i>Future of mobility</i> hackathonil, mis toimus Riias. Mõlemad üritused olid korraldatud Garage48 poolt.",
+            "date": "02/2019"
           },
           {
-            "name": "Maratoni läbimine (09/2019)",
-            "description": "Läbisin oma esimese maratoni ajaga 4 tundi ja 53 minutit."
+            "name": "Maratoni läbimine",
+            "description": "Läbisin oma esimese maratoni ajaga 4 tundi ja 53 minutit. ",
+            "date": "09/2019"
           },
           {
-            "name": "Androidi rakendus rallikuulekuse radade loomiseks (11/2019 – 03/2020)",
-            "description": "Isiklik projekt, mis on avalikult kättesaadav github-is."
+            "name": "Androidi rakenduse 'rallikuulekus' loomine",
+            "description": "Isiklik Androidi projekt, mis on avalikult kättesaadav github-is. Rakendus võimaldab luua, muuta ja salvestada rallikuulekuse(rallikuulekus on koertele suunatud spordiala) rajaskeeme.",
+            "date": "11/2019 - 03/2020"
           }
         ]
       },

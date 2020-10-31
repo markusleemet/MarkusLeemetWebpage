@@ -5,6 +5,18 @@
       h3.custom-item-name {{ experienceItem.name }}
       h4.experience-position {{ experienceItem.position }}
       p.experience-description {{ experienceItem.description }}
+      .websites-list(v-if="experienceItem.name === 'Nähtamatud Loomad'")
+        ul
+          li
+            a(href="https://taimneteisipaev.ee/" target="_plank") taimneteisipaev.ee
+          li
+            a(href="https://toetajaliige.nahtamatudloomad.ee/" target="_plank") toetajaliige.nahtamatudloomad.ee
+          li
+            a(href="https://siga.nahtamatudloomad.ee/" target="_plank") siga.nahtamatudloomad.ee
+          li
+            a(href="https://www.foodinnovationsummit.ee/" target="_plank") foodinnovationsummit.ee
+          li
+            a(href="https://aitan.nahtamatudloomad.ee/" target="_plank") aitan.nahtamatudloomad.ee
       p.custom-item-date {{ experienceItem.date }}
 </template>
 

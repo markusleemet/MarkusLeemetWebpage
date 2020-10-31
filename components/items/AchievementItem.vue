@@ -2,8 +2,9 @@
 .achievement-item-component.custom-item
   b-row(align-h="around")
     b-col(cols="12")
-      h3.custom-item-name {{ achievementItem.name }}
-      p.achievement-description {{ achievementItem.description }}
+      h3.custom-item-name(v-html="achievementItem.name")
+      p.achievement-description(v-html="achievementItem.description")
+      p.custom-item-date(v-html="achievementItem.date")
 </template>
 
 <script lang="js">

@@ -6,7 +6,7 @@
       h4.education-lead {{ educationItem.lead }}
       p {{ educationItem.description }}
       p.custom-item-date {{ educationItem.date }}
-      p.education-location {{ educationItem.location }}
+      p.education-location(v-html="educationItem.location")
 </template>
 
 <script lang="js">
