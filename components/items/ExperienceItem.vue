@@ -17,6 +17,10 @@
             a(href="https://www.foodinnovationsummit.ee/" target="_plank") foodinnovationsummit.ee
           li
             a(href="https://aitan.nahtamatudloomad.ee/" target="_plank") aitan.nahtamatudloomad.ee
+          li
+            a(href="https://munadehind.ee/" target="_plank") munadehind.ee
+          li
+            a(href="https://nahtamatudloomad.ee/" target="_plank") nahtamatudloomad.ee
       p.custom-item-date {{ experienceItem.date }}
 </template>
 
