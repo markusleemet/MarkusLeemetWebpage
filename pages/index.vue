@@ -5,6 +5,7 @@
   Experience
   Achievement
   Skills
+  Interests
 </template>
 
 <script lang="js">

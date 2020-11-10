@@ -9,6 +9,8 @@
   a(href="#" v-scroll-to="'#achievement-information-container'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Saavutused'}") {{ $t('resume.menu.achievements') }}
   span {{ divider }}
   a(href="#" v-scroll-to="'#skills-information-container'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Oskused'}") {{ $t('resume.menu.skills') }}
+  span {{ divider }}
+  a(href="#" v-scroll-to="'#interests-information-container'" v-bind:class="{ 'font-weight-bold': selectedOption === 'Huvid'}") {{ $t('resume.menu.interests') }}
 </template>
 
 <script lang="js">
