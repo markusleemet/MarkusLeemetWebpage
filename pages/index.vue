@@ -1,36 +1,53 @@
 <template lang="pug">
-.resume-page
-  About
-  Education
-  Experience
-  Achievement
-  Skills
-  Interests
+  .resume-page
+    About
+    Education
+    Experience
+    Achievement
+    Skills
+    Interests
 </template>
 
 <script lang="js">
 import og from '~/static/mina_og.jpg'
+
 export default {
   name: 'resume',
   head () {
     return {
       title: 'Markus Leemet resume',
       meta: [
-        { hid: 'og:title', property: 'og:title', content: 'Markus Leemet resume' },
-        { hid: 'og:image', property: 'og:image', content: og }
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Markus Leemet resume'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: og
+        }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: '/favicon.ico'
+        }
       ]
     }
+  },
+  mounted () {
+    this.$ga.page('/')
   }
 }
 </script>
 
 <style lang="scss">
-.resume-page{
+.resume-page {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.2rem;
+
   .menu-container {
     height: 100vh;
     position: sticky;
@@ -42,40 +59,48 @@ export default {
     justify-content: center;
     align-items: center;
 
-    @media (max-width: 576px){
+    @media (max-width: 576px) {
       position: relative;
     }
   }
-  h2{
+
+  h2 {
     font-weight: 700;
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1.5rem;
   }
-  p{
+
+  p {
     word-break: break-word;
   }
-  .information-container{
+
+  .information-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .section-image{
+
+  .section-image {
     max-width: 100px;
   }
-  .custom-item{
+
+  .custom-item {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    .custom-item-name{
+
+    .custom-item-name {
       font-weight: bold;
     }
-    .custom-item-date{
+
+    .custom-item-date {
       color: #2CBFAA;
       position: relative;
       margin-left: 1.4rem;
-      &::before{
+
+      &::before {
         content: '';
         display: block;
         height: 1rem;
@@ -88,9 +113,11 @@ export default {
       }
     }
   }
-  a{
+
+  a {
     color: black;
-    &:hover{
+
+    &:hover {
       color: #037171;
       text-decoration: none;
     }
