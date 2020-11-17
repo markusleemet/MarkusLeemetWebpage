@@ -3,10 +3,10 @@
     b-row
       b-col(cols="12" sm="6").menu-container.menu-item
         h2 {{ $t('resume.sections.interests.title') }}
-        b-img.section-image(src="~/assets/images/achievements.png")
+        b-img.section-image(src="~/assets/images/interests.png")
         ResumeMenu(selectedOption="Huvid")
-      b-col(cols="12" sm="4" offset-sm="1").information-container#interests-information-container
-        InterestItem
+      b-col(cols="12" sm="4" offset-sm="1" ).information-container#interests-information-container
+        InterestItem(:interestItem="interestItem" v-for="interestItem in $t('resume.sections.interests.items')" :key="interestItem.name")
 </template>
 
 <script lang="js">

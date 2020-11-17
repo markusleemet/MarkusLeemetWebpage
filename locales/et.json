@@ -112,7 +112,46 @@
         "languages": "Keeled, mida oskan:"
       },
       "interests": {
-        "title": "Huvid"
+        "title": "Huvid",
+        "items": [
+          {
+            "name": "Jooksmine",
+            "description": "",
+            "link": "https://www.sportos.eu/ee/et/markus+leemet",
+            "fontAwesomeIcon": "running"
+          },
+          {
+            "name": "Lugemine",
+            "description": "",
+            "link": "https://www.goodreads.com/user/show/67580658-markus-leemet",
+            "fontAwesomeIcon": "book"
+          },
+          {
+            "name": "Kokkamine",
+            "description": "",
+            "fontAwesomeIcon": "hamburger"
+          },
+          {
+            "name": "Jõusaal",
+            "description": "",
+            "fontAwesomeIcon": "dumbbell"
+          },
+          {
+            "name": "Mediteerimine",
+            "description": "",
+            "fontAwesomeIcon": "heart"
+          },
+          {
+            "name": "Tennis",
+            "description": "",
+            "fontAwesomeIcon": "table-tennis"
+          },
+          {
+            "name": "Ratsutamine",
+            "description": "",
+            "fontAwesomeIcon": "horse-head"
+          }
+        ]
       }
     }
   }

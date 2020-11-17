@@ -9,11 +9,11 @@
         h2.text-center {{ $t('resume.sections.skills.usedTechnologies') }}
         b-row.skills-list
           b-col.d-flex.flex-row.justify-content-center.skill-item-container(cols="12" xl="4" v-for="(skillItem, index) in skillItems" v-bind:class="{'offset-xl-2': skillItem.offset}")
-            SkillItem(:skillItem="skillItem")
+            SkillItem(:skillItem="skillItem" :key="skillItem.name")
         h2.text-center {{ $t('resume.sections.skills.languages') }}
         b-row.justify-content-center
           b-col.d-flex.flex-row.justify-content-center.skill-item-container(cols="12" xl="4" v-for="(languageItem, index) in languageItems")
-            SkillItem(:skillItem="languageItem")
+            SkillItem(:key="languageItem.name" :skillItem="languageItem" )
 </template>
 
 <script lang="js">

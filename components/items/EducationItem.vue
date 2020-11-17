@@ -1,12 +1,12 @@
 <template lang="pug">
-.education-item-component.custom-item
-  b-row(align-h="around")
-    b-col(cols="12")
-      h3.custom-item-name {{ educationItem.name }}
-      h4.education-lead {{ educationItem.lead }}
-      p {{ educationItem.description }}
-      p.custom-item-date {{ educationItem.date }}
-      p.education-location(v-html="educationItem.location")
+  .education-item-component.custom-item
+    b-row(align-h="around")
+      b-col(cols="12")
+        h3.custom-item-name {{ educationItem.name }}
+        h4.education-lead {{ educationItem.lead }}
+        p {{ educationItem.description }}
+        p.custom-item-date {{ educationItem.date }}
+        p.education-location(v-html="educationItem.location")
 </template>
 
 <script lang="js">
@@ -19,12 +19,13 @@ export default {
 </script>
 
 <style lang="scss">
-.education-item-component{
-  .education-location{
+.education-item-component {
+  .education-location {
     color: #2CBFAA;
     position: relative;
     margin-left: 1.5rem;
-    &::before{
+
+    &::before {
       content: '';
       display: block;
       height: 1.2rem;
