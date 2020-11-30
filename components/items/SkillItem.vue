@@ -1,5 +1,5 @@
 <template lang="pug">
-  .skill-item-component.custom-item
+  a.skill-item-component.custom-item(:href="skillItem.link" target="_blank")
     b-img(src="~/assets/images/hexagon.png")
     .skill-name-and-description
       h4.custom-item-name {{ skillItem.name }}
@@ -18,15 +18,28 @@ export default {
 <style lang="scss">
 .skill-item-component {
   position: relative;
+  background-color: rgba(255, 255, 255, 0);
   max-width: 200px;
   margin: 0 !important;
-  @media (max-width: 1200px){
+  transition: top .1s;
+  top: 0;
+
+
+  @media (max-width: 1200px) {
     margin-bottom: 1rem !important;
   }
-  img{
+
+  &:hover {
+    color: black !important;
+    top: -10px;
+    cursor: pointer;
+  }
+
+  img {
     width: 100%;
   }
-  .skill-name-and-description{
+
+  .skill-name-and-description {
     position: absolute;
     left: 0;
     top: 0;
@@ -38,7 +51,8 @@ export default {
     align-items: center;
     text-align: center;
   }
-  .skill-item-logo{
+
+  .skill-item-logo {
     max-width: 25%;
   }
 }

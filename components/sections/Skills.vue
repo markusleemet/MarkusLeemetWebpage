@@ -34,30 +34,112 @@ import wordpress from '~/assets/logos/wordpress.png'
 import sendgrid from '~/assets/logos/sendgrid.png'
 import eesti from '~/assets/logos/eesti.png'
 import usFlag from '~/assets/logos/us_flag.png'
+
 export default {
   name: 'Skills',
   data () {
     return {
       skillItems: [
-        { name: 'HTML', icon: html, offset: false },
-        { name: 'CSS', icon: css, offset: false },
-        { name: 'Bootstrap', icon: bootstrap, offset: false },
-        { name: 'JavaScript', icon: javascript, offset: true },
-        { name: 'Nuxt', icon: nuxt, offset: false },
-        { name: 'Vue', icon: vue, offset: false },
-        { name: 'React', icon: react, offset: false },
-        { name: 'Android', icon: android, offset: false },
-        { name: 'Java', icon: java, offset: true },
-        { name: 'Python', icon: python, offset: false },
-        { name: 'Sql', icon: sql, offset: false },
-        { name: 'Pug', icon: pug, offset: false },
-        { name: 'Sass', icon: sass, offset: false },
-        { name: 'Wordpress', icon: wordpress, offset: true },
-        { name: 'Sendgrid', icon: sendgrid, offset: false }
+        {
+          name: 'HTML',
+          icon: html,
+          offset: false,
+          link: 'https://html.com/'
+        },
+        {
+          name: 'CSS',
+          icon: css,
+          offset: false,
+          link: 'https://html.com/'
+        },
+        {
+          name: 'Bootstrap',
+          icon: bootstrap,
+          offset: false,
+          link: 'https://getbootstrap.com/'
+        },
+        {
+          name: 'JavaScript',
+          icon: javascript,
+          offset: true,
+          link: 'https://www.javascript.com/'
+        },
+        {
+          name: 'Nuxt',
+          icon: nuxt,
+          offset: false,
+          link: 'https://nuxtjs.org/'
+        },
+        {
+          name: 'Vue',
+          icon: vue,
+          offset: false,
+          link: 'https://vuejs.org/'
+        },
+        {
+          name: 'React',
+          icon: react,
+          offset: false,
+          link: 'https://reactjs.org/'
+        },
+        {
+          name: 'Android',
+          icon: android,
+          offset: false,
+          link: 'https://developer.android.com/'
+        },
+        {
+          name: 'Java',
+          icon: java,
+          offset: true,
+          link: 'https://www.java.com/en/'
+        },
+        {
+          name: 'Python',
+          icon: python,
+          offset: false,
+          link: 'https://www.python.org/'
+        },
+        {
+          name: 'Sql',
+          icon: sql,
+          offset: false,
+          link: 'https://www.mysql.com/'
+        },
+        {
+          name: 'Pug',
+          icon: pug,
+          offset: false,
+          link: 'https://pugjs.org/api/getting-started.html'
+        },
+        {
+          name: 'Sass',
+          icon: sass,
+          offset: false,
+          link: 'https://sass-lang.com/'
+        },
+        {
+          name: 'Wordpress',
+          icon: wordpress,
+          offset: true,
+          link: 'https://wordpress.com/'
+        },
+        {
+          name: 'Sendgrid',
+          icon: sendgrid,
+          offset: false,
+          link: 'https://sendgrid.com/'
+        }
       ],
       languageItems: [
-        { name: 'Eesti', icon: eesti },
-        { name: 'English', icon: usFlag }
+        {
+          name: 'Eesti',
+          icon: eesti
+        },
+        {
+          name: 'English',
+          icon: usFlag
+        }
       ]
     }
   }
@@ -65,16 +147,18 @@ export default {
 </script>
 
 <style lang="scss">
-.skill-component{
-  .menu-item{
+.skill-component {
+  .menu-item {
     background-color: #B8F3FF;
   }
-  .information-container{
-    .skill-item-container{
+
+  .information-container {
+    .skill-item-container {
       padding-right: 0.6rem;
       padding-left: 0.6rem;
     }
-    .skills-list{
+
+    .skills-list {
       margin-bottom: 5rem;
     }
   }
