@@ -23,8 +23,6 @@ export default {
   margin: 0 !important;
   transition: top .1s;
   top: 0;
-
-
   @media (max-width: 1200px) {
     margin-bottom: 1rem !important;
   }

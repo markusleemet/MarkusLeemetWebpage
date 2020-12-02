@@ -34,6 +34,7 @@ import wordpress from '~/assets/logos/wordpress.png'
 import sendgrid from '~/assets/logos/sendgrid.png'
 import eesti from '~/assets/logos/eesti.png'
 import usFlag from '~/assets/logos/us_flag.png'
+import kotlin from '~/assets/logos/kotlin.png'
 
 export default {
   name: 'Skills',
@@ -129,6 +130,12 @@ export default {
           icon: sendgrid,
           offset: false,
           link: 'https://sendgrid.com/'
+        },
+        {
+          name: 'Kotlin',
+          icon: kotlin,
+          offset: false,
+          link: 'https://kotlinlang.org/'
         }
       ],
       languageItems: [
