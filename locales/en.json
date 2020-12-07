@@ -1,5 +1,158 @@
 {
   "resume": {
-    "lead": "curriculum vitae"
+    "title": "Markus Leemet",
+    "lead": "curriculum vitae",
+    "menu": {
+      "about": "About",
+      "education": "Education",
+      "experience": "Experience",
+      "achievements": "Achievements",
+      "skills": "Skills",
+      "interests": "Interests"
+    },
+    "sections": {
+      "about": {
+        "title": "About",
+        "lead": "About me:",
+        "description": "I am young, enthusiastic, and have an active lifestyle.  I am never afraid to take on new and exciting challenges, and I am always willing to learn new knowledge. Because of my good analytical thinking, I am capable of solving different problems fast and efficiently. I am searching for a position in software development to put my knowledge from University to test and to start with my career. I am an extremely conscientious and good team player.",
+        "contactTitle": "Contacts:",
+        "mail": "markusleemet@gmail.com ",
+        "location": "Tartu, Eesti ",
+        "linkedin": "linkedin.com/in/markus-leemet",
+        "phone": "+372 56296263",
+        "birthday": "24 October, 1997",
+        "github": "github.com/markusleemet"
+      },
+      "education": {
+        "title": "Education",
+        "items": [
+          {
+            "name": "University of Tartu",
+            "date": "09/2016 – Present",
+            "lead": "Faculty of Science and Technology, Institute of Computer Science, Computer Science",
+            "description": "Studying software development at the University of Tartu has given me an extensive overview of all the different roles in software development. Different courses took us deep into all kinds of processes that occur in that field. The curriculum gave me a strong theoretical background and practical experience from writing functional requirements to testing software. ",
+            "location": "Tartu"
+          },
+          {
+            "name": "Rocca al Mare Kool",
+            "date": "09/2011 – 06/2016",
+            "lead": "High school",
+            "description": "Õppisin Rocca al Mare Koolis kaheksandast klassist kuni gümnaasiumi lõpuni. Reaalkallakuga gümnaasiumi läbimine andis mulle tugeva matemaatilise tausta ning hea analüüsivõime. Tänu valikainetele tekkis mul huvi programmeerimise vastu ning otsustasin seda ülikooli õppima minna.",
+            "location": "Tallinn"
+          },
+          {
+            "name": "Aruküla Vaba Waldorfkool",
+            "date": "09/2004 – 06/2011",
+            "lead": "Primary school",
+            "description": "Läbisin põhikooli esimesed seitse klassi Aruküla Vaba Waldorfkoolis. Waldorfkool andis mulle võime probleemidele loovalt läheneda ning tahtmise mõista maailma enda ümber.",
+            "location": "Aruküla"
+          }
+        ]
+      },
+      "experience": {
+        "title": "Experience",
+        "items": [
+          {
+            "name": "Noored Koodi",
+            "position": "Workshop instructor",
+            "date": "01/2018 - 01/2020",
+            "description": "I was a workshop instructor in a project called Noored Koodi and instructed about 60 workshops. Workshops were aimed at middle school and high school students. I instructed the following workshops: Python programming language, virtual reality, online security, web development, Arduino,  and algorithms. In addition to instructing workshops, I helped to organize two Noored Koodi competitions."
+          },
+          {
+            "name": "Nähtamatud Loomad",
+            "position": "IT volunteer",
+            "date": "01/2019 - Present",
+            "description": "I am an IT volunteer at a non-profit called Nähtamatud Loomad and I am developing landing pages and homepages for different campaigns to support Nähtamatud Loomad vision. Since I joined the organization I have worked with the following websites:"
+          }
+        ]
+      },
+      "achievements": {
+        "title": "Achievements",
+        "items": [
+          {
+            "name": "First place at START 2012",
+            "description": "START is a debating competition that is aimed at debaters that have no or little experience and haven't previously participated in any debating competition. The subject of the competition was 'alkoholi kättesaadavuse piiramine on põhjendatud'. We achieved first place at the turnament with team called 'm³'.",
+            "date": "11/2012"
+          },
+          {
+            "name": "Essay contest <i>Kes võidab Euroopa ühtsusest?</i> first place",
+            "description": "The essay contest was organized by Liberalismi Akadeemia and a member of the European Parlament Urmas Paet. The prize for first place was a tour of the European Parlament in Brussels. The essay is readable at a webpage <a href='https://www.liberalism.ee/akadeemia/uudised/kes-voidab-euroopa-uhtsusest/' target='_plank'>https://www.liberalism.ee/akadeemia/uudised/kes-voidab-euroopa-uhtsusest/</a>",
+            "date": "09/2016"
+          },
+          {
+            "name": "Kõnevõistluse <i>Demosthenese pärg</i> teine koht",
+            "description": "<i>Demosthenese pärg</i> on Rocca al Mare Koolis korraldatav iga-aastane kõnevõistlus, kus õpilased peavad etteantud teemal kõnesi.",
+            "date": "03/2016"
+          },
+          {
+            "name": "Ajateenistuse läbimine",
+            "description": "Olen läbinud kaheksakuulise ajateenistuse Kuperjaanovi jalaväepataljonis. Asusin kaitseväkke kohe peale gümnaasiumit.",
+            "date": "10/2016 - 06/2017"
+          },
+          {
+            "name": "I have attended two hackathons",
+            "description": "I have attended two hackathons. The first one was called <i>Arts and hardware</i> and took place in Tartu and the second one was called <i>Future of Mobility</i> and was held in Riga. Both events were organized by Garage48.",
+            "date": "02/2019"
+          },
+          {
+            "name": "Marathon",
+            "description": "I run my first marathon in 4 hours and 53 minutes.",
+            "date": "09/2019"
+          },
+          {
+            "name": "Android application <i>Rallikuulekus</i>",
+            "description": "<i>Rallikuulekus</i> is my personal Android project that is publicly accessible in Github. The application allows users to create, edit, and save visual rally obedience schemas. Rally obedience is a dog sport based on obedience.",
+            "date": "11/2019 - 03/2020"
+          }
+        ]
+      },
+      "skills": {
+        "title": "Skills",
+        "usedTechnologies": "Technologies that I have used:",
+        "languages": "Languages that I speak:"
+      },
+      "interests": {
+        "title": "Interests",
+        "items": [
+          {
+            "name": "Running",
+            "description": "",
+            "link": "https://www.sportos.eu/ee/et/markus+leemet",
+            "fontAwesomeIcon": "running"
+          },
+          {
+            "name": "Reading",
+            "description": "",
+            "link": "https://www.goodreads.com/user/show/67580658-markus-leemet",
+            "fontAwesomeIcon": "book"
+          },
+          {
+            "name": "Cooking",
+            "description": "",
+            "fontAwesomeIcon": "hamburger"
+          },
+          {
+            "name": "Gym",
+            "description": "",
+            "fontAwesomeIcon": "dumbbell"
+          },
+          {
+            "name": "Meditation",
+            "description": "",
+            "fontAwesomeIcon": "heart"
+          },
+          {
+            "name": "Tennis",
+            "description": "",
+            "fontAwesomeIcon": "table-tennis"
+          },
+          {
+            "name": "Horseback riding",
+            "description": "",
+            "fontAwesomeIcon": "horse-head"
+          }
+        ]
+      }
+    }
   }
 }

@@ -6,6 +6,10 @@
         b-img.section-image(src="~/assets/images/about.png")
         ResumeMenu(selectedOption="Minust")
       b-col(cols="12" sm="4" offset-sm="1").information-container.custom-item#about-information-container
+        .select-language-container.mb-5
+          nuxt-link.language-selection.pr-2(:to="switchLocalePath('et')" v-bind:class="{ 'selected-language': this.$i18n.locale === 'et' }") Eesti
+          span.language-selection.font-weight-bolder {{ '|' }}
+          nuxt-link.language-selection.pl-2(:to="switchLocalePath('en')" v-bind:class="{ 'selected-language': this.$i18n.locale === 'en' }") English
         img.about-image.mb-5(src="~/assets/images/mina.jpg" alt="Markus Leemet picture")
         h2.custom-item-name.text-center {{ $t('resume.sections.about.lead') }}
         p.about-description.mb-5 {{ $t('resume.sections.about.description') }}
@@ -35,6 +39,20 @@ export default {
 .about-component{
   .menu-item{
     background-color: #B8F3FF;
+  }
+  .select-language-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    .language-selection{
+      font-size: 1.4rem;
+      &:hover{
+        color: black;
+      }
+    }
+    .selected-language{
+      font-weight: 700;
+    }
   }
   .about-image{
     width: 100%;
