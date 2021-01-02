@@ -37,14 +37,14 @@
             "name": "Rocca al Mare Kool",
             "date": "09/2011 – 06/2016",
             "lead": "High school",
-            "description": "Õppisin Rocca al Mare Koolis kaheksandast klassist kuni gümnaasiumi lõpuni. Reaalkallakuga gümnaasiumi läbimine andis mulle tugeva matemaatilise tausta ning hea analüüsivõime. Tänu valikainetele tekkis mul huvi programmeerimise vastu ning otsustasin seda ülikooli õppima minna.",
+            "description": "I attended Rocca al Mare school from eighth grade to the end of high school. Studying in high school, which emphasized science, gave me a strong background in math and analytical thinking. Optional courses introduced me to software development, and because of that, I decided to study it at the university.",
             "location": "Tallinn"
           },
           {
             "name": "Aruküla Vaba Waldorfkool",
             "date": "09/2004 – 06/2011",
             "lead": "Primary school",
-            "description": "Läbisin põhikooli esimesed seitse klassi Aruküla Vaba Waldorfkoolis. Waldorfkool andis mulle võime probleemidele loovalt läheneda ning tahtmise mõista maailma enda ümber.",
+            "description": "I studied the first seven grades at Aruküla Vaba Waldorfkool. Waldorf education gave me the ability to solve problems creatively and to understand the world around me.",
             "location": "Aruküla"
           }
         ]
@@ -85,8 +85,8 @@
             "date": "03/2016"
           },
           {
-            "name": "Ajateenistuse läbimine",
-            "description": "Olen läbinud kaheksakuulise ajateenistuse Kuperjaanovi jalaväepataljonis. Asusin kaitseväkke kohe peale gümnaasiumit.",
+            "name": "Estonian Defence Forces",
+            "description": "I have attended the Estonian Defence Forces. I served eight months in Kuperjanov infantry battalion.",
             "date": "10/2016 - 06/2017"
           },
           {

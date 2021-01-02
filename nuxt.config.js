@@ -1,5 +1,11 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
+  ssr: false,
+  loadingIndicator: {
+    name: 'circle',
+    color: '#3B8070',
+    background: 'white'
+  },
   head: {
     title: 'myWebpage',
     meta: [
