@@ -30,8 +30,11 @@
 </template>
 
 <script lang="ts">
+import { ResumeMenu } from '~/components/items'
+
 export default {
-  name: 'About'
+  name: 'About',
+  components: { ResumeMenu }
 }
 </script>
 

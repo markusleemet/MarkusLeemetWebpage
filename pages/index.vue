@@ -9,10 +9,16 @@
 </template>
 
 <script lang="js">
+import { About, Achievement, Education, Experience, Skills, Interests } from '../components/sections'
+
 import og from '~/static/mina_og.jpg'
 
 export default {
-  name: 'resume',
+  name: 'Resume',
+  components: { Interests, Skills, Achievement, Experience, Education, About },
+  mounted () {
+    this.$ga.page('/')
+  },
   head () {
     return {
       title: 'Markus Leemet resume',
@@ -36,9 +42,6 @@ export default {
         }
       ]
     }
-  },
-  mounted () {
-    this.$ga.page('/')
   }
 }
 </script>

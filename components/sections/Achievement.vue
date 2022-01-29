@@ -10,8 +10,11 @@
 </template>
 
 <script lang="ts">
+import { AchievementItem, ResumeMenu } from '~/components/items'
+
 export default {
-  name: 'Achievement'
+  name: 'Achievement',
+  components: { ResumeMenu, AchievementItem }
 }
 </script>
 

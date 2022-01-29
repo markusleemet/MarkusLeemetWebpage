@@ -11,12 +11,15 @@
 </template>
 
 <script lang="js">
+import { EducationItem, ResumeMenu } from '~/components/items'
+
 export default {
-  name: 'Education'
+  name: 'Education',
+  components: { ResumeMenu, EducationItem }
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .education-component {
   .menu-item {
     background-color: #97d1ff;

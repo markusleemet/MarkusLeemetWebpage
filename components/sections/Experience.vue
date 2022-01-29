@@ -10,12 +10,15 @@
 </template>
 
 <script lang="ts">
+import { ResumeMenu, ExperienceItem } from '~/components/items'
+
 export default {
-  name: 'Experience'
+  name: 'Experience',
+  components: { ExperienceItem, ResumeMenu }
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .experience-component{
   .menu-item{
     background-color: #B8F3FF;

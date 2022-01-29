@@ -10,12 +10,15 @@
 </template>
 
 <script lang="js">
+import { ResumeMenu, InterestItem } from '~/components/items'
+
 export default {
-  name: 'Interests'
+  name: 'Interests',
+  components: { InterestItem, ResumeMenu }
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .interests-component{
   .menu-item{
     background-color: #97d1ff;

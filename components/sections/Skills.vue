@@ -35,9 +35,11 @@ import sendgrid from '~/assets/logos/sendgrid.png'
 import eesti from '~/assets/logos/eesti.png'
 import usFlag from '~/assets/logos/us_flag.png'
 import kotlin from '~/assets/logos/kotlin.png'
+import { SkillItem, ResumeMenu } from '~/components/items'
 
 export default {
   name: 'Skills',
+  components: { ResumeMenu, SkillItem },
   data () {
     return {
       skillItems: [
